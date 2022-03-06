@@ -1,0 +1,10 @@
+version: '3.0'
+
+services:
+  anonchat:
+    build: https://github.com/anonchat-org/anonchat-server.rs
+    image: anonchat-server.rs
+    ports:
+      - "6969:6969"
+    command:
+      "0.0.0.0:6969"
