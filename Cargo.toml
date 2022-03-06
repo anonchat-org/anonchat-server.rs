@@ -1,0 +1,6 @@
+[package]
+name = "anonchat-server"
+version = "0.0.1"
+edition = "2022"
+
+[dependencies]
